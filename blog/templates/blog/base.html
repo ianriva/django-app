@@ -11,6 +11,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css " href="{% static 'blog/main.css' %}">
     <link rel="icon" href="{% static 'blog/cut-diamond_39242.ico' %}">
+    <script src="https://kit.fontawesome.com/4236be2be4.js" crossorigin="anonymous"></script>
     {% if title %}
         <title>IR's blog - {{ title }}</title>
     {% else %}
@@ -62,15 +63,12 @@
             </div>
             <div class="col-md-4">
                 <div class="content-section">
-                    <h3>Our Sidebar</h3>
-                    <p class='text-muted'>You can put any information here you'd like.
+                    <h3>Info</h3>
                         <ul class="list-group">
-                            <li class="list-group-item list-group-item-light">Latest Posts</li>
-                            <li class="list-group-item list-group-item-light">Announcements</li>
-                            <li class="list-group-item list-group-item-light">Calendars</li>
-                            <li class="list-group-item list-group-item-light">etc</li>
+                            <li class="list-group-item list-group-item-light"><a href="https://www.ianriva.xyz">Who made this site?</a></li>
+                            <li class="list-group-item list-group-item-light"><a href="https://github.com/ianriva/"><i class="fab fa-github"></i> Github</a></li>
+                            <li class="list-group-item list-group-item-light"><a href="mailto:ianriva96.ir@gmail.com"><i class="far fa-envelope"></i> Contact</a></li>
                         </ul>
-                    </p>
                 </div>
             </div>
         </div>
